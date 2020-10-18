@@ -1,7 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-node_modules
 /.pnp
 .pnp.js
 
@@ -25,3 +24,10 @@ yarn-error.log*
 
 /.idea
 .vscode
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
